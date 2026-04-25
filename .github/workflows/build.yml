@@ -1,0 +1,51 @@
+name: ChickenSC Universal Build
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    name: Build ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        # Simplificado para evitar quebra em arquiteturas instáveis
+        os: [windows-latest, ubuntu-latest]
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install System Dependencies (Linux)
+      if: runner.os == 'Linux'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y python3-dev build-essential liblua5.1-0-dev
+
+    - name: Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install customtkinter psutil lupa py-cpuinfo pyinstaller
+
+    - name: Build Portable Executable
+      shell: bash
+      run: |
+        if [ "$RUNNER_OS" == "Windows" ]; then SEP=";"; else SEP=":"; fi
+        # Adicionado --collect-all para garantir que CTK e Lupa entrem no EXE
+        pyinstaller --noconfirm --onefile --windowed \
+        --add-data "module.lua${SEP}." \
+        --collect-all customtkinter \
+        --name "ChickenSC_${{ runner.os }}" \
+        main.py
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ChickenSC-${{ runner.os }}
+        path: dist/
