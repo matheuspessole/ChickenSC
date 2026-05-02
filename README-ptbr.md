@@ -6,7 +6,7 @@ Utilitário de diagnóstico de alta performance para auditoria de hardware. Movi
 
 ### **✨ Principais Recursos**
 * **Verificação Universal:** Suporte para processadores de 64 bits e tecnologia ARM.
-* **Lógica Dual-Engine:** Integração do núcleo Python com scripts em Lua.
+* **Lógica Dual-Engine:** Integração do núcleo Python com script em Lua.
 * **Hardware Insights:** Relatórios em tempo real sobre componentes do sistema.
 * **Interface Moderna:** Desenvolvido com foco em usabilidade e leveza.
 
