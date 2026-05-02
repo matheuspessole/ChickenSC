@@ -1,4 +1,4 @@
-Language: English - [Portuguese](https://github.com/matheuspessole/ChickenSC/README_pt-br.md)
+Language: English - [Portuguese](https://github.com/matheuspessole/ChickenSC/blob/main/README_pt-br.md)
 # ChickenSC - Diagnostic Tool
 ![Status](https://img.shields.io/badge/Status-Open%20Source-blue) ![Language](https://img.shields.io/badge/Language-Python%20%7C%20Lua-blue) ![License](https://img.shields.io/badge/License-Non--Commercial-orange)
 
