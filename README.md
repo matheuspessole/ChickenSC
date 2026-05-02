@@ -1,20 +1,21 @@
-# ChickenSC - Ferramenta de Diagnóstico
-![Status](https://img.shields.io/badge/Status-Código%20Aberto-blue) ![Language](https://img.shields.io/badge/Language-Python%20%7C%20Lua-blue) ![License](https://img.shields.io/badge/License-Não--Comercial-orange)
+Language: English - [Portuguese](https://github.com/matheuspessole/ChickenSC/README_pt-br.md)
+# ChickenSC - Diagnostic Tool
+![Status](https://img.shields.io/badge/Status-Open%20Source-blue) ![Language](https://img.shields.io/badge/Language-Python%20%7C%20Lua-blue) ![License](https://img.shields.io/badge/License-Non--Commercial-orange)
 
-Utilitário de diagnóstico de alta performance para auditoria de hardware. Movido por um motor híbrido **Python/Lua** para máxima eficiência. Compatível com arquiteturas **x64 e ARM64**.
+A high-performance diagnostic utility for system hardware auditing. Powered by a hybrid **Python/Lua** engine for maximum efficiency. Compatible with **x64 and ARM64** architectures.
 
-### **✨ Principais Recursos**
-* **Verificação Universal:** Suporte para processadores de 64 bits e tecnologia ARM.
-* **Lógica Dual-Engine:** Integração do núcleo Python com scripts em Lua.
-* **Hardware Insights:** Relatórios em tempo real sobre componentes do sistema.
-* **Interface Moderna:** Desenvolvido com foco em usabilidade e leveza.
+### **✨ Key Features**
+* **Universal Check:** Support for 64-bit processors and ARM technology.
+* **Dual-Engine Logic:** Integration of Python core with Lua scripting.
+* **Hardware Insights:** Real-time reporting on system components.
+* **Modern Interface:** Developed with a focus on usability and performance.
 
 ---
 
-### **🚀 Como Usar**
+### **🚀 How to Use**
 
-#### **Requisitos de Sistema**
-* **Python 3.x:** Certifique-se de ter o Python instalado.
-* **Bibliotecas:** Instale as dependências necessárias via terminal:
+#### **System Requirements**
+* **Python 3.x:** Ensure Python is installed on your machine.
+* **Libraries:** Install the required dependencies via terminal:
 ```bash
 pip install customtkinter lupa psutil
