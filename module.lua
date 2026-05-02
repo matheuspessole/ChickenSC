@@ -1,16 +1,13 @@
-(function(a, b, c, d, e)
+(function(sys, proc, ram, tech)
     local log_table = {
         "╔════════════════════════════════════════╗\n",
         "║           ChickenSC - DIAGNOSTIC       ║\n",
         "╚════════════════════════════════════════╝\n\n",
-        "> System:          " .. a .. "\n",
-        "> Processor:       ".. b .. "\n",
-        "> Architecture:    " .. c.."\n",
-        "> RAM:             " .. d .." GB\n",
-        "> Storage:         " .. e .."GB \n\n",
-        "───────────────────────────────────────────\n",
-        "               END OF REPORT                  \n",
-        "───────────────────────────────────────────\n"
+        "> System: " .. sys .. "\n",
+        "> Processor: ".. proc.. "\n",
+        "> RAM: " .. ram .."\n",
+        "> Architecture: " .. tech .."\n\n",
+        "══════════════════════════════════════════\n"
     }
     return table.concat(log_table)
 end)
