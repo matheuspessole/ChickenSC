@@ -28,8 +28,6 @@ ChickenSC is an open-source project without a proprietary digital certificate. D
 
 ---
 
-### ⚠️ Uninstallation Information (PT-BR/EN)
+### ⚠️ Uninstallation Information
 
-**PT-BR:** Por ser um software de código aberto sem certificação digital, o Windows pode restringir a desinstalação automática. Caso ocorra erro, localize a pasta do programa, execute o arquivo "unins000.exe" ou exclua o diretório manualmente para concluir a remoção.
-
-**EN:** As an open-source software without digital certification, Windows may restrict automatic uninstallation. If an error occurs, locate the program folder, run the "unins000.exe" file, or delete the directory manually to complete the removal process.
+As an open-source software without digital certification, Windows may restrict automatic uninstallation. If an error occurs, locate the program folder, run the "unins000.exe" file, or delete the directory manually to complete the removal process.
