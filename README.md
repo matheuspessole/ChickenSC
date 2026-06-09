@@ -26,8 +26,3 @@ High-performance diagnostic utility for hardware auditing. **Version 3.0** marks
 #### Security Notice
 ChickenSC is an open-source project without a proprietary digital certificate. Due to this, the operating system may impose preventive restrictions during execution or removal.
 
----
-
-### ⚠️ Uninstallation Information
-
-As an open-source software without digital certification, Windows may restrict automatic uninstallation. If an error occurs, locate the program folder, run the "unins000.exe" file, or delete the directory manually to complete the removal process.
