@@ -2,6 +2,7 @@
 # include <stdio.h>
 # include <string.h>
 # include <stdlib.h>
+
 void capturar(char *comando, char *variavel){
     FILE * ponteiro = popen(comando, "r");
     char buffer[100];
@@ -16,7 +17,7 @@ void capturar(char *comando, char *variavel){
 	pclose(ponteiro);
 }
 int main(int argc, char * argv[]){
-	printf(" ==== INFORMAÇÕES DO SISTEMA === \n");
+	printf("Loading system info...\n");
 
 	char os_name[100];
 	char cpu[100];
