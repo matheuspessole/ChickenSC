@@ -26,8 +26,3 @@ Utilitário de diagnóstico de alta performance para auditoria de hardware. A **
 #### Aviso de Segurança
 O ChickenSC é um projeto de código aberto sem certificação digital proprietária. Devido a esta característica, o sistema operacional pode impor restrições preventivas durante a execução ou remoção. 
 
----
-
-### ⚠️ Informações sobre a Desinstalação
-
-Por ser um software de código aberto sem certificação digital, o Windows pode restringir a desinstalação automática. Caso ocorra erro, localize a pasta do programa, execute o arquivo "unins000.exe" ou exclua o diretório manualmente para concluir a remoção.
