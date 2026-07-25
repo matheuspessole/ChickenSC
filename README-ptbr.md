@@ -20,7 +20,7 @@ Utilitário de diagnóstico de alta performance para auditoria de hardware. A **
 ### 🚀 Como Usar
 
 #### Requisitos de Sistema
-* **Sistema Operacional:** Windows XP, 7, 10 ou 11 (x86 ou x64).
+* **Sistema Operacional:** Windows XP ou superior (compatível com versões anteriores).
 * **Instalação:** Não requer configurações de ambiente. Basta baixar a versão mais recente na seção [Releases](https://github.com/matheuspessole/ChickenSC/releases) e executar o binário.
 
 #### Aviso de Segurança
