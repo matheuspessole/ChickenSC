@@ -4,7 +4,7 @@
 
 #define MyAppName "ChickenSC"
 #define MyAppVersion "3.1"
-#define MyAppPublisher "Matheus Sanchez"
+#define MyAppPublisher "Matheus Pessole"
 #define MyAppURL "https://github.com/matheuspessole/ChickenSC"
 #define MyAppExeName "main.exe"
 #expr EmitLanguagesSection
